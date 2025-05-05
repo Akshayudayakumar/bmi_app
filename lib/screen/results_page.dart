@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:bmi_calculator/utils/constants.dart';
 import 'package:bmi_calculator/components/bottom_button.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:google_fonts/google_fonts.dart';
 
 class ResultsPage extends StatelessWidget {
   ResultsPage(

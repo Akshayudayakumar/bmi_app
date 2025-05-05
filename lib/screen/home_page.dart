@@ -7,7 +7,7 @@ import 'package:bmi_calculator/components/reusable_card.dart';
 import 'package:bmi_calculator/utils/constants.dart';
 import 'package:bmi_calculator/components/bottom_button.dart';
 import 'package:bmi_calculator/components/round_icon_button.dart';
-import 'package:bmi_calculator/screen/widgets/bmi_calculation.dart';
+import 'package:bmi_calculator/model/model.dart';
 
 
 

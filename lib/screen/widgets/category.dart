@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:google_fonts/google_fonts.dart';
 import '../../utils/constants.dart';
 
 class Category extends StatelessWidget {
@@ -23,7 +22,6 @@ class Category extends StatelessWidget {
               color: kActiveCardColour,
               borderRadius: BorderRadius.circular(10),
             ),
-            child: Expanded(
               child: Center(
                 child: Text(
                   text,
@@ -32,7 +30,6 @@ class Category extends StatelessWidget {
                   style: resultTextStyle,
                 ),
               ),
-            ),
           ),
           SizedBox(height: 15.h),
           Align(alignment: Alignment.centerLeft,
@@ -44,7 +41,6 @@ class Category extends StatelessWidget {
               color: kActiveCardColour,
               borderRadius: BorderRadius.circular(10),
             ),
-            child: Expanded(
               child: Text(
                 subText,
                 maxLines: 3,
@@ -52,7 +48,6 @@ class Category extends StatelessWidget {
                 style: subTextStyle,
               ),
             ),
-          ),
         ],
       ),
     );
